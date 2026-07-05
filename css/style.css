@@ -71,6 +71,8 @@ textarea:focus-visible,
   top: 0;
   z-index: 1000;
   box-shadow: var(--shadow);
+  /* 히어로(네이비)와 헤더가 같은 색이라 경계가 안 보이던 문제 해결: 하단 구분선 */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
 }
 .nav-wrap {
   max-width: var(--wide-width);

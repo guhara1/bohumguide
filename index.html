@@ -3,6 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
   <title>보험길잡이 | 보험 정보를 쉽고 정확하게 정리한 보험 가이드</title>
   <meta name="description" content="실손·암·자동차·운전자보험부터 보험 용어, 가입 전 체크리스트, 보험금 청구 절차까지. 판매가 아닌 순수 정보 제공을 목적으로 하는 한국어 보험 정보 사이트입니다.">
   <meta name="keywords" content="보험정보, 보험 가이드, 실손의료보험, 암보험, 자동차보험, 운전자보험, 보험금 청구, 보험 용어">
@@ -20,6 +24,62 @@
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
   <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "보험길잡이",
+    "url": "https://www.bohumguide.example/",
+    "description": "보험을 쉽고 정확하게 이해하도록 돕는 정보 제공 사이트",
+    "publishingPrinciples": "https://www.bohumguide.example/editorial.html",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "contact@bohumguide.example",
+      "contactType": "customer support"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "보험길잡이",
+    "url": "https://www.bohumguide.example/"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "보험길잡이에서 보험에 직접 가입할 수 있나요?",
+        "acceptedAnswer": { "@type": "Answer", "text": "아니요. 보험길잡이는 정보 제공 사이트로, 특정 상품을 판매하거나 중개하지 않습니다. 보험을 이해하는 데 필요한 개념과 절차를 정리해 드릴 뿐, 실제 가입은 보험사나 전문가를 통해 진행하셔야 합니다." }
+      },
+      {
+        "@type": "Question",
+        "name": "실손의료보험과 암보험 같은 정액형 보험은 무엇이 다른가요?",
+        "acceptedAnswer": { "@type": "Answer", "text": "실손의료보험은 실제로 지출한 의료비를 약관에 따라 보상하는 방식이고, 암보험 등 정액형 보험은 진단·수술 등 정해진 사건이 발생하면 약정한 금액을 지급하는 방식입니다. 두 가지는 성격이 달라 서로 보완적으로 이해하는 것이 좋습니다." }
+      },
+      {
+        "@type": "Question",
+        "name": "보험료는 왜 사람마다 다른가요?",
+        "acceptedAnswer": { "@type": "Answer", "text": "보험료는 나이, 성별, 건강 상태, 직업, 보장 범위 등에 따른 위험률과 예정이율·사업비 등을 반영해 산정됩니다. 같은 상품이라도 개인의 조건에 따라 금액이 달라집니다." }
+      },
+      {
+        "@type": "Question",
+        "name": "보험금은 어떻게 청구하나요?",
+        "acceptedAnswer": { "@type": "Answer", "text": "사고나 질병이 발생하면 진단서·영수증·진료세부내역 등 필요한 서류를 준비해 보험사에 접수합니다. 심사를 거쳐 보험금이 지급되며, 자세한 흐름은 보험금 청구 절차 안내를 참고하세요." }
+      },
+      {
+        "@type": "Question",
+        "name": "여기 있는 정보만 보고 가입을 결정해도 되나요?",
+        "acceptedAnswer": { "@type": "Answer", "text": "본 사이트의 정보는 일반적인 이해를 돕기 위한 참고 자료입니다. 제도와 상품은 수시로 바뀌고 개인 상황에 따라 적용이 다르므로, 실제 결정은 반드시 최신 약관과 전문가 상담을 통해 확인하시기 바랍니다." }
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <a class="skip-link" href="#main">본문 바로가기</a>
@@ -37,6 +97,7 @@
       <nav class="main-nav" id="main-nav" aria-label="주 메뉴">
         <ul>
           <li><a href="index.html">홈</a></li>
+          <li><a href="blog/index.html">블로그</a></li>
           <li class="has-sub">
             <button class="menu-toggle" aria-expanded="false" aria-haspopup="true">보험 기초 가이드 <span class="caret">▾</span></button>
             <ul class="submenu">
@@ -72,6 +133,7 @@
             <button class="menu-toggle" aria-expanded="false" aria-haspopup="true">사이트 정보 <span class="caret">▾</span></button>
             <ul class="submenu">
               <li><a href="about.html">소개</a></li>
+              <li><a href="editorial.html">편집 정책</a></li>
               <li><a href="contact.html">문의하기</a></li>
             </ul>
           </li>
@@ -88,6 +150,15 @@
         <p>보험길잡이는 상품 판매나 가입 권유 없이, 누구나 알아두면 좋은 보험 제도와 용어, 가입 전 확인사항을 쉽게 정리해 드립니다.</p>
         <a class="btn" href="guide/terms.html">보험 용어부터 보기</a>
         <a class="btn btn-ghost" href="guide/checklist.html">가입 전 체크리스트</a>
+      </div>
+    </section>
+
+    <!-- 도입 소개 (실질 콘텐츠) -->
+    <section class="section">
+      <div class="container">
+        <h2>보험, 왜 '정보'부터 확인해야 할까요?</h2>
+        <p>보험은 대부분의 가정에서 매달 나가는 고정 지출이자, 짧게는 몇 년에서 길게는 평생을 유지하는 계약입니다. 그런데도 막상 가입할 때는 낯선 용어와 복잡한 약관 때문에 내용을 충분히 이해하지 못한 채 결정하는 경우가 많습니다. "남들이 다 드니까", "아는 설계사가 권해서" 가입했다가, 정작 보장이 필요한 순간에 "이건 보장 대상이 아니다"라는 말을 듣고 당황하는 일이 반복되는 이유입니다.</p>
+        <p>보험길잡이는 이런 정보 격차를 줄이기 위해 만들어졌습니다. 우리는 특정 상품을 팔지 않습니다. 대신 실손의료보험·암보험·자동차보험 같은 대표 상품이 <strong>어떤 구조로 작동하는지</strong>, 보험료와 자기부담금은 <strong>어떻게 정해지는지</strong>, 보험금은 <strong>어떻게 청구하고 왜 거절되는지</strong>를 누구나 이해할 수 있는 말로 정리합니다. 아래 기본 개념만 익혀 두어도, 상담을 받을 때 훨씬 좋은 질문을 던질 수 있고 불필요한 가입을 줄일 수 있습니다.</p>
       </div>
     </section>
 
@@ -143,6 +214,29 @@
       </div>
     </section>
 
+    <!-- 핵심 개념 (실질 콘텐츠 + 표) -->
+    <section class="section alt">
+      <div class="container">
+        <h2>꼭 알아야 할 보험 기본 개념 4가지</h2>
+        <p class="section-sub" style="margin-bottom:22px">이 네 가지만 이해해도 대부분의 보험 설명이 눈에 들어옵니다.</p>
+        <div class="table-scroll">
+          <table class="data">
+            <caption>보험을 이해하는 핵심 용어</caption>
+            <thead>
+              <tr><th>개념</th><th>한 줄 정의</th><th>왜 중요한가</th></tr>
+            </thead>
+            <tbody>
+              <tr><th>보험료 vs 보험금</th><td>보험료는 내가 <strong>내는</strong> 돈, 보험금은 사고 시 <strong>받는</strong> 돈</td><td>방향이 정반대라, 헷갈리면 상담 자체가 어긋납니다</td></tr>
+              <tr><th>자기부담금</th><td>보장 대상 비용 중 내가 부담하는 몫(정률·정액)</td><td>같은 병원비라도 실제로 받는 보험금이 달라집니다</td></tr>
+              <tr><th>갱신형 vs 비갱신형</th><td>보험료가 주기마다 다시 산정되는지, 고정인지</td><td>장기 유지 시 총납입액이 크게 달라집니다</td></tr>
+              <tr><th>면책·감액 기간</th><td>가입 초기 보장이 안 되거나 일부만 지급되는 기간</td><td>"가입했는데 못 받는" 상황을 미리 예방합니다</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>각 개념은 예시와 함께 <a href="guide/terms.html">보험 용어 사전</a>에서 더 자세히 확인할 수 있고, 보험료가 정해지는 원리는 <a href="guide/premium.html">보험료 계산 원리</a>에서, 계약 전 점검 항목은 <a href="guide/checklist.html">가입 전 체크리스트</a>에서 다룹니다.</p>
+      </div>
+    </section>
+
     <!-- AD SLOT: 본문 중간 -->
     <div class="container"><div class="ad-slot"><!-- AD SLOT: 본문 중간 (애드센스 승인 후 광고 코드 삽입) -->광고 자리 (승인 후 노출)</div></div>
 
@@ -192,6 +286,29 @@
       </div>
     </section>
 
+    <!-- 자주 묻는 질문 (실질 콘텐츠 + FAQPage 구조화 데이터와 일치) -->
+    <section class="section alt">
+      <div class="container">
+        <h2>자주 묻는 질문 (FAQ)</h2>
+        <p class="section-sub" style="margin-bottom:24px">보험을 처음 접하는 분들이 가장 많이 궁금해하는 질문입니다.</p>
+
+        <h3>Q. 보험길잡이에서 보험에 직접 가입할 수 있나요?</h3>
+        <p>아니요. 보험길잡이는 정보 제공 사이트로, 특정 상품을 판매하거나 중개하지 않습니다. 보험을 이해하는 데 필요한 개념과 절차를 정리해 드릴 뿐이며, 실제 가입은 보험사나 자격을 갖춘 전문가를 통해 진행하셔야 합니다.</p>
+
+        <h3>Q. 실손의료보험과 암보험 같은 정액형 보험은 무엇이 다른가요?</h3>
+        <p>실손의료보험은 실제로 지출한 의료비를 약관에 따라 보상하는 방식이고, 암보험 등 정액형 보험은 진단·수술처럼 정해진 사건이 발생하면 약정한 금액을 지급하는 방식입니다. 성격이 서로 달라 보완적으로 이해하는 것이 좋습니다. 자세한 차이는 <a href="types/health.html">실손의료보험</a>과 <a href="types/cancer.html">암보험</a> 정리 글을 참고하세요.</p>
+
+        <h3>Q. 보험료는 왜 사람마다 다른가요?</h3>
+        <p>보험료는 나이, 성별, 건강 상태, 직업, 보장 범위 등에 따른 위험률과 예정이율·사업비 등을 반영해 산정됩니다. 그래서 같은 상품이라도 개인의 조건에 따라 금액이 달라집니다. 원리는 <a href="guide/premium.html">보험료 계산 원리</a>에서 자세히 설명합니다.</p>
+
+        <h3>Q. 보험금은 어떻게 청구하나요?</h3>
+        <p>사고나 질병이 발생하면 진단서·영수증·진료세부내역 등 필요한 서류를 준비해 보험사에 접수합니다. 심사를 거쳐 보험금이 지급되며, 전체 흐름은 <a href="claim/process.html">보험금 청구 절차 총정리</a>에서 단계별로 안내합니다.</p>
+
+        <h3>Q. 여기 있는 정보만 보고 가입을 결정해도 되나요?</h3>
+        <p>본 사이트의 정보는 일반적인 이해를 돕기 위한 참고 자료입니다. 제도와 상품은 수시로 바뀌고 개인 상황에 따라 적용이 다르므로, 실제 결정은 반드시 최신 약관과 전문가 상담을 통해 확인하시기 바랍니다.</p>
+      </div>
+    </section>
+
     <!-- AD SLOT: 글 하단 -->
     <div class="container"><div class="ad-slot"><!-- AD SLOT: 글 하단 (애드센스 승인 후 광고 코드 삽입) -->광고 자리 (승인 후 노출)</div></div>
   </main>
@@ -206,6 +323,7 @@
         </div>
         <ul class="footer-links">
           <li><a href="about.html">소개</a></li>
+          <li><a href="editorial.html">편집 정책</a></li>
           <li><a href="privacy.html">개인정보처리방침</a></li>
           <li><a href="disclaimer.html">면책조항</a></li>
           <li><a href="contact.html">문의하기</a></li>
