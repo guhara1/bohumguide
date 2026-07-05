@@ -43,7 +43,7 @@
 
 ## 게시 전 반드시 교체할 자리 (placeholder)
 
-- [ ] 도메인: 전 페이지의 `https://www.bohumguide.example` → 실제 도메인으로 교체 (canonical, og, sitemap, robots)
+- [ ] 도메인: 전 페이지의 `https://bohumguide.netlify.app` → 실제 도메인으로 교체 (canonical, og, sitemap, robots)
 - [ ] `robots.txt`, `sitemap.xml`의 도메인/날짜
 - [ ] `ads.txt`: 애드센스 승인 후 `google.com, pub-XXXXXXXX, DIRECT, f08c47fec0942fa0` 형식으로 작성
 - [ ] 각 페이지 `<head>`의 네이버/구글 소유확인 메타태그 주석 자리
