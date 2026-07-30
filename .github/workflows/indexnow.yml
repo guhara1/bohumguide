@@ -1,0 +1,19 @@
+name: IndexNow submit
+
+# main 브랜치에 반영될 때마다(=Netlify 배포 시점과 맞춰) sitemap.xml의
+# 모든 URL을 IndexNow(네이버 서치어드바이저·빙 등이 지원)로 즉시 제출합니다.
+# 구글은 IndexNow를 지원하지 않으므로 서치콘솔에서 별도로 등록해야 합니다.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "sitemap.xml"
+  workflow_dispatch: {}
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Submit sitemap URLs to IndexNow
+        run: bash scripts/indexnow-submit.sh
