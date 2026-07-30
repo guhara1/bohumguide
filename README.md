@@ -58,6 +58,27 @@
 2. **도메인 연결** — Netlify의 Domain settings에서 구입한 도메인을 연결하고, 위 placeholder의 도메인 값을 실제 도메인으로 교체 후 다시 배포합니다.
 3. **검색·광고 등록** — ① 네이버 서치어드바이저와 ② 구글 서치콘솔에 사이트를 등록(소유확인 메타태그 삽입)하고 `sitemap.xml`을 제출한 뒤, ③ 구글 애드센스에 사이트를 신청합니다. 승인 후 `ads.txt`와 광고 코드를 채웁니다.
 
+## 검색엔진 색인을 가장 빠르게 반영하는 법
+
+이미 갖춰진 것 (코드 레벨):
+
+- `sitemap.xml` — 전체 페이지 79개 URL 포함, 이번에 내용을 수정한 페이지들은 `lastmod`를 최신 날짜로 갱신해 재크롤링을 유도합니다.
+- `robots.txt` — 모든 크롤러 허용 + 네이버(Yeti)·구글봇(Googlebot) 명시적 허용 + `sitemap.xml` 위치 안내.
+- `rss.xml` — 블로그 글 61개 전체, `lastBuildDate` 최신화. 네이버 서치어드바이저에 RSS를 등록해 두면 새 글이 훨씬 빠르게 수집됩니다.
+- **IndexNow 연동** — 네이버 서치어드바이저·빙 등이 지원하는 [IndexNow](https://www.indexnow.org/) 프로토콜을 붙여 뒀습니다. 정규 크롤링을 기다리지 않고 URL 변경을 즉시 통보할 수 있습니다.
+  - 소유확인 키 파일: `9c9a1e7283e235597d59f37b661c8b26.txt` (배포 시 사이트 루트에 그대로 있어야 함)
+  - 제출 스크립트: `scripts/indexnow-submit.sh` — 배포가 끝난 뒤 실행하면 `sitemap.xml`의 모든 URL을 IndexNow로 즉시 제출합니다.
+    ```bash
+    ./scripts/indexnow-submit.sh
+    ```
+  - GitHub Actions(`.github/workflows/indexnow.yml`) — `main` 브랜치에 `sitemap.xml` 변경이 반영될 때마다 위 스크립트를 자동 실행합니다. (Netlify 배포와 별개로, GitHub 저장소의 `main`에 머지되는 시점 기준으로 동작합니다.)
+  - ⚠️ 구글은 IndexNow를 지원하지 않습니다. 구글은 아래 서치콘솔 절차가 필요합니다.
+
+사용자가 직접 해야 하는 것 (계정 로그인이 필요해 코드로 대신할 수 없음):
+
+1. **네이버 서치어드바이저** (https://searchadvisor.naver.com) — 사이트 소유확인은 이미 완료되어 있습니다(`naver-site-verification` 메타태그 값 존재). 아직 안 하셨다면 ① `사이트맵 제출`에 `https://bohumguide.netlify.app/sitemap.xml` 등록, ② `RSS 제출`에 `https://bohumguide.netlify.app/rss.xml` 등록, ③ `웹마스터 도구 > 요청 > 웹페이지 수집`으로 주요 페이지 개별 수집 요청을 하면 보통 몇 시간~하루 안에 반영됩니다.
+2. **구글 서치콘솔** (https://search.google.com/search-console) — 아직 소유확인이 안 되어 있습니다(`index.html` 등 `<head>`의 `<!-- 구글 서치콘솔 소유확인 메타태그 자리 -->` 주석이 실제 태그로 아직 교체되지 않음). 사이트 등록 후 발급되는 `google-site-verification` 메타태그를 그 자리에 넣고 배포한 뒤, `URL 검사` 도구로 `색인 생성 요청`을 누르면 가장 빠르게 반영됩니다. 이후 `Sitemaps` 메뉴에 `sitemap.xml`을 제출해 두면 이후 글은 자동으로 주기적 수집됩니다.
+
 ## 고지
 
 본 사이트의 콘텐츠는 보험에 대한 일반적인 정보 제공·교육 목적이며, 특정 상품의 가입 권유나 중개가 아닙니다.
