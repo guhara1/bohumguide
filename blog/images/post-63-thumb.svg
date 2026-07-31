@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-labelledby="t63">
+  <title id="t63">실효 보험 효력회복(부활) 총정리 썸네일</title>
+  <defs>
+    <linearGradient id="bg63" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a2b4a"/>
+      <stop offset="100%" stop-color="#2a3f68"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg63)"/>
+  <circle cx="1080" cy="90" r="220" fill="#2f6fed" opacity="0.16"/>
+  <circle cx="90" cy="560" r="160" fill="#2f6fed" opacity="0.12"/>
+  <rect x="70" y="70" width="150" height="46" rx="23" fill="#2f6fed"/>
+  <text x="145" y="100" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">보험 활용</text>
+  <text x="600" y="300" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="60" font-weight="800" fill="#ffffff" text-anchor="middle">실효된 보험, 되살릴 수 있을까</text>
+  <text x="600" y="380" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="44" font-weight="600" fill="#c9d6f2" text-anchor="middle">효력회복(부활) 방법과 주의점</text>
+  <text x="70" y="560" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="30" font-weight="700" fill="#ffffff">🛡 보험길잡이</text>
+  <text x="1130" y="560" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="24" fill="#8fa3cf" text-anchor="end">bohumguide</text>
+</svg>

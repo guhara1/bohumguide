@@ -278,6 +278,14 @@ main { display: block; }
   padding-bottom: 18px;
   margin-bottom: 8px;
 }
+.article-thumb {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+  margin: 4px 0 22px;
+  box-shadow: var(--shadow);
+}
 .article h2 {
   font-size: 1.45rem;
   color: var(--navy);
@@ -429,6 +437,39 @@ table.data tbody th { background: #eef2fa; color: var(--navy); }
 }
 .related-grid a:hover { box-shadow: var(--shadow); transform: translateY(-2px); text-decoration: none; border-color: var(--blue); }
 .related-grid a small { display: block; color: var(--muted); font-weight: 500; margin-top: 4px; font-size: 0.82rem; }
+
+/* 롱테일 주제 태그 (세부 검색어 기반 내부링크) */
+.longtail-tags {
+  margin: 18px 0 36px;
+  padding: 18px 20px;
+  background: #f7f9fd;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+.longtail-tags .longtail-label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 10px;
+}
+.longtail-tags .longtail-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.longtail-tags a {
+  display: inline-block;
+  background: #fff;
+  color: var(--blue-dark);
+  border: 1px solid #dce6fb;
+  border-radius: 999px;
+  padding: 7px 15px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: background 0.15s ease, color 0.15s ease, transform 0.1s ease;
+}
+.longtail-tags a:hover { background: var(--blue); color: #fff; border-color: var(--blue); transform: translateY(-1px); text-decoration: none; }
 
 /* ---------- 홈 전용 ---------- */
 .section { padding: 48px 0; }
