@@ -6,7 +6,15 @@
     <atom:link href="https://bohumguide.netlify.app/rss.xml" rel="self" type="application/rss+xml"/>
     <description>주제별 보험 정보를 쉽게 정리한 보험길잡이 블로그입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 30 Jul 2026 12:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 12:00:00 +0900</lastBuildDate>
+    <item>
+      <title>소득 대비 적정 보험료, 얼마가 적당할까</title>
+      <link>https://bohumguide.netlify.app/blog/post-73.html</link>
+      <guid isPermaLink="true">https://bohumguide.netlify.app/blog/post-73.html</guid>
+      <description>보장성 보험료의 적정 비중과 과다·과소 가입 신호, 가입 우선순위를 정하는 실전 기준을 정리했습니다.</description>
+      <enclosure url="https://bohumguide.netlify.app/blog/images/post-73-thumb.svg" type="image/svg+xml" length="0"/>
+      <pubDate>Tue, 04 Aug 2026 12:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>중증질환 산정특례, 암·중증환자 병원비 크게 줄이는 제도 총정리</title>
       <link>https://bohumguide.netlify.app/blog/post-72.html</link>
