@@ -6,7 +6,31 @@
     <atom:link href="https://bohumguide.netlify.app/rss.xml" rel="self" type="application/rss+xml"/>
     <description>주제별 보험 정보를 쉽게 정리한 보험길잡이 블로그입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 30 Jul 2026 12:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 12:03:00 +0900</lastBuildDate>
+    <item>
+      <title>직장 단체실손과 개인실손, 중복으로 내야 할까? 퇴직 시 대처법</title>
+      <link>https://bohumguide.netlify.app/blog/post-77.html</link>
+      <guid isPermaLink="true">https://bohumguide.netlify.app/blog/post-77.html</guid>
+      <description>회사 단체실손이 있는데 개인실손도 필요할까? 중복가입 시 보상 구조, 개인실손 중지·재개 제도, 퇴직·이직 때 보장 공백을 막는 방법을 실전 정리했습니다.</description>
+      <enclosure url="https://bohumguide.netlify.app/blog/img/post-77.png" type="image/png" length="0"/>
+      <pubDate>Thu, 30 Jul 2026 12:03:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>무해지·저해지환급형 보험, 보험료 싼 대신 무엇을 포기할까</title>
+      <link>https://bohumguide.netlify.app/blog/post-76.html</link>
+      <guid isPermaLink="true">https://bohumguide.netlify.app/blog/post-76.html</guid>
+      <description>보험료가 저렴하다는 무해지·저해지환급형 보험. 중도 해지 시 환급금이 없거나 적은 구조와 완납 후 차이, 누구에게 맞고 누구는 피해야 하는지 실전 정리.</description>
+      <enclosure url="https://bohumguide.netlify.app/blog/img/post-76.png" type="image/png" length="0"/>
+      <pubDate>Thu, 30 Jul 2026 12:02:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>산재보험과 실손보험, 업무 중 다쳤을 때 함께 받을 수 있을까</title>
+      <link>https://bohumguide.netlify.app/blog/post-75.html</link>
+      <guid isPermaLink="true">https://bohumguide.netlify.app/blog/post-75.html</guid>
+      <description>업무 중 다치면 산재보험과 민간 실손·상해보험을 어떻게 처리해야 할지 헷갈립니다. 산재 우선 처리 원칙, 실손 중복보상 여부, 합의금과의 관계까지 실전 정리.</description>
+      <enclosure url="https://bohumguide.netlify.app/blog/img/post-75.png" type="image/png" length="0"/>
+      <pubDate>Thu, 30 Jul 2026 12:01:00 +0900</pubDate>
+    </item>
     <item>
       <title>노인장기요양보험, 등급 신청부터 급여까지 총정리</title>
       <link>https://bohumguide.netlify.app/blog/post-74.html</link>
