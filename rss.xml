@@ -6,7 +6,15 @@
     <atom:link href="https://bohumguide.netlify.app/rss.xml" rel="self" type="application/rss+xml"/>
     <description>주제별 보험 정보를 쉽게 정리한 보험길잡이 블로그입니다.</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 30 Jul 2026 12:02:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 12:03:00 +0900</lastBuildDate>
+    <item>
+      <title>직장 단체실손과 개인실손, 중복으로 내야 할까? 퇴직 시 대처법</title>
+      <link>https://bohumguide.netlify.app/blog/post-77.html</link>
+      <guid isPermaLink="true">https://bohumguide.netlify.app/blog/post-77.html</guid>
+      <description>회사 단체실손이 있는데 개인실손도 필요할까? 중복가입 시 보상 구조, 개인실손 중지·재개 제도, 퇴직·이직 때 보장 공백을 막는 방법을 실전 정리했습니다.</description>
+      <enclosure url="https://bohumguide.netlify.app/blog/img/post-77.png" type="image/png" length="0"/>
+      <pubDate>Thu, 30 Jul 2026 12:03:00 +0900</pubDate>
+    </item>
     <item>
       <title>무해지·저해지환급형 보험, 보험료 싼 대신 무엇을 포기할까</title>
       <link>https://bohumguide.netlify.app/blog/post-76.html</link>
